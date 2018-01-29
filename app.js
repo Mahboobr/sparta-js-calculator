@@ -24,9 +24,9 @@ if (CalcType == "b") {
     alert(total);
   }
 } else if (CalcType == "a") {
-  var option = prompt("Power or SquareRoot");
+  var option = prompt("Power(p) or SquareRoot(sq)");
   switch (option) {
-    case "Power":
+    case "p":
       var InputNum = prompt("Input 1st number");
       var num1 = parseInt(InputNum, 10);
       var InputNum2 = prompt("Input 2nd number");
@@ -34,7 +34,7 @@ if (CalcType == "b") {
       total = Math.pow(num1, num2);
       alert(total);
       break;
-    case "SquareRoot":
+    case "sq":
       var InputNum = prompt("Input 1st number");
       var num1 = parseInt(InputNum, 10);
       total = Math.sqrt(num1);
